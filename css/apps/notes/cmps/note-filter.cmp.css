@@ -1,0 +1,37 @@
+.note-filter{
+    max-width: 980px;
+    margin:10px auto;
+}
+
+.note-filter input{
+    height: 40px;
+    width: 500px;
+    padding: 5px;
+    margin-inline-end: 5px;
+    font-size: 1rem;
+    font-family: roboto, cursive;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    outline: none;
+
+}
+
+.note-filter select{
+    padding: 5px;
+    max-width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    font-family: roboto, cursive;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    outline: none;
+}
+
+.note-filter input:hover{
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+.note-filter select:hover{
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}

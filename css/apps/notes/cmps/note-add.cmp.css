@@ -1,0 +1,160 @@
+.note-add {
+    max-width: 980px;
+    margin: 10px auto;
+    position: relative;
+    font-family: lato, Arial, sans-serif;
+}
+
+.note-add form {
+    border-radius: 20px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.note-add input {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    margin-inline-end: 5px;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: lato, Arial, sans-serif;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.note-add form .note-title {
+    font-size: 1.125rem;
+}
+
+.note-add .close-btn {
+    width: 80px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    font-family: lato, Arial, sans-serif;
+    margin-top: 12px;
+    transition: all .3s;
+}
+
+.note-add .close-btn:hover {
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+
+.note-add .cmp-options>* {
+    margin: 15px;
+    font-size: 1rem;
+}
+
+.note-add .cmp-options li>* {
+    font-size: 1rem;
+    transition: all .3s;
+    cursor: pointer;
+    position: relative;
+}
+
+/* .note-add .cmp-options li>*:hover {
+    transform: scale(1.1);
+} */
+
+.note-add .cmp-options {
+    padding: 10px;
+    align-self: flex-start;
+    margin-right: 25px;
+}
+
+.fas.fa-camera-retro::before {
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.fas.fa-font::before {
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.fas.fa-volume-up::before {
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.fas.fa-list::before {
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.fab.fa-youtube::before {
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.fas.fa-camera-retro:hover::before {
+    background-color: #e0e0e0;
+}
+
+.fas.fa-font:hover::before {
+    background-color: #e0e0e0;
+}
+
+.fas.fa-volume-up:hover::before {
+    background-color: #e0e0e0;
+}
+
+.fas.fa-list:hover::before {
+    background-color: #e0e0e0;
+}
+
+.fab.fa-youtube:hover::before {
+    background-color: #e0e0e0;
+}
+
+.selected .fas.fa-camera-retro::before {
+    border: 1px solid #e0e0e0;
+}
+
+.selected .fas.fa-font::before {
+    border: 1px solid #e0e0e0;
+}
+
+.selected .fas.fa-volume-up::before {
+    border: 1px solid #e0e0e0;
+}
+
+.selected .fas.fa-list::before {
+    border: 1px solid #e0e0e0;
+}
+
+.selected .fab.fa-youtube::before {
+    border: 1px solid #e0e0e0;
+}
+
+@media (max-width:480px) {
+    .note-add input {
+        width: 325px;
+    }
+    .note-add form {
+        max-width: 335px;
+    }
+    .note-add .cmp-options>* {
+        margin: 5px;
+        font-size: 1rem;
+    }
+    .note-add .close-btn {
+        padding-top: 10px;
+        margin-top: 0;
+        padding-right: 45px;
+    }
+}

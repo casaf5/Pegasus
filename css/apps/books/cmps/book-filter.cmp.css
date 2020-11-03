@@ -1,0 +1,35 @@
+.book-filter {
+  max-width: 750px;
+  margin: 0 auto;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.book-filter>* {
+  height: 40px;
+  width: 500px;
+  padding: 5px 5px 5px 10px;
+  margin-inline-end: 5px;
+  font-size: 1rem;
+  font-family: roboto, cursive;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  outline: none;
+}
+
+@media (max-width:750px) {
+  .book-filter>* {
+    width: 200px
+  }
+}
+
+@media (max-width:480px) {
+  .book-filter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .book-filter>* {
+    margin-bottom: 5px;
+  }
+}

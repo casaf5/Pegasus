@@ -1,0 +1,25 @@
+.list-tools{
+    vertical-align: top;
+    font-size: 1rem;
+    padding: 5px 9px;
+    border-top: 1px solid rgba(180, 180, 180, 0);
+    border-left: 1px solid rgba(180, 180, 180, 0);
+    border-right: 1px solid rgba(180, 180, 180, 0);
+}
+.list-tools :first-child{
+    margin-right: 10px;
+}
+.list-tools >* :not(span):not(:first-child){
+    cursor: pointer;
+    margin-right: 14px;
+}
+.list-tools:hover {
+    background-color: #fa9a004f;
+    border-top: 1px solid #fa9c00;
+    border-left: 1px solid #fa9c00;
+    border-right: 1px solid #fa9c00;
+    
+}
+.list-tools i:hover{
+    transform: scale(1.15,1.15);
+}

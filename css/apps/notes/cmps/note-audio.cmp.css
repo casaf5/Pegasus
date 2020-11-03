@@ -1,0 +1,19 @@
+.audio-area audio {
+    width: 365px;
+    object-fit: fill;
+    margin: 10px auto;
+    display: block;
+    outline: none;
+}
+
+@media (max-width:480px) {
+    .audio-area audio {
+        width: 315px;
+    }
+}
+
+@media (max-width:720px) {
+    .audio-area audio {
+        width: 345px;
+    }
+}

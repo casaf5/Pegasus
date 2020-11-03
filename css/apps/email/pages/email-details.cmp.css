@@ -1,0 +1,47 @@
+.email-details{
+    font-size: 1.1rem;
+    font-family: roboto;
+    height: max-content;
+}
+.details-tools >*{
+    cursor: pointer;
+}
+.details-tools >*:hover{
+    transform: scale(1.15,1.15);
+}
+.details-btns{
+    padding: 5px;
+}
+.email-body{
+    background-color: #fff;
+    padding: 10px;
+}
+.email-subject{
+    font-size: 2rem;
+}
+.info-box{
+    background-color: #fa9c00;
+    color: white;
+    padding: 10px;
+}
+.from-name{
+    font-weight: bold;
+    
+}
+.full-date{
+    padding-left: 10px;
+}
+.details-tools >*{
+        margin: 0 5px;
+}
+.sent-from-details{
+    font-size: 1rem;
+}
+@media (max-width:480px){
+    .email-body{
+        font-size: 1rem;
+    }
+    .email-subject{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,34 @@
+.email-app {
+    background-color: white;
+    display: grid;
+    padding: 0 30px;
+    grid-template-columns: 0.1fr 1.9fr;
+    grid-template-rows: 0.1fr 0.9fr;
+    grid-template-areas: "fl fl fl fl" 
+                        "sd main main main" 
+                        "stat stat stat stat";
+    justify-content: flex-start;
+    min-height: 85vh;
+    flex-grow: 1;
+    
+}
+.email-filter {
+    grid-area: fl;
+}
+.email-sidebar {
+    grid-area: sd;
+    font-size: 1.3rem;
+}
+.email-main {
+    grid-area: main;
+}
+.email-status{
+    grid-area: stat;
+}
+
+@media (max-width:570px){
+    .email-app {
+        display: flex;    
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,138 @@
+.book-details {
+    max-width: 700px;
+    margin: 10px auto;
+    position: relative;
+    background-color: #ffffff;
+    text-transform: capitalize;
+    border: 2px solid #e0e0e0;
+    font-family: lato, Arial, sans-serif;
+    border-radius: 10px;
+}
+
+/* .ALL-DETAILS */
+
+.all-details {
+    flex-basis: 50%;
+}
+
+.basic-book-details .summary h5, h4, h3 {
+    margin: 0;
+    padding: 0px 0 25px 10px;
+    align-self: flex-start;
+    font-weight: normal;
+}
+
+.basic-book-details .summary span {
+    font-family: lato, Arial, sans-serif;
+    font-weight: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+
+.book-details .book-thumbnail {
+    width: 220px;
+    border: 1px solid #e0e0e0;
+}
+
+.book-details .img-and-price {
+    padding: 5px;
+}
+
+.btn-close-details {
+    flex-basis: 100%;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Passion One', cursive;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px 50px;
+    background-color: #fa9c00;
+    transition: all .3s;
+}
+
+.btn-close-details:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    color: white;
+}
+
+.book-details .book-title {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 0 10px 10px;
+}
+
+.book-details .book-subt {
+    width: 100%;
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 10px;
+}
+
+.book-details .book-price {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 4px 40px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.book-details .sale {
+    width: 150px;
+    height: 80px;
+    left: 0%;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 0;
+}
+
+.book-details .btn-more-less {
+    background-color: #333333;
+    border-radius: 5px;
+    color: white;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+
+/* BASIC-DETAILS */
+
+.book-details .basic-book-details {
+    height: 350px;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    padding: 5px;
+}
+
+.book-details section h5 {
+    font-size: 1rem;
+}
+
+.fas.fa-arrow-left, .fas.fa-arrow-right {
+    padding: 5px;
+}
+
+@media(max-width:480px) {
+    .book-details {
+        max-width: 380px;
+    }
+    .basic-book-details {
+        /* flex-direction: column; */
+    }
+    .btn-close-details {
+        width: 100px;
+    }
+    .basic-book-details .summary h5, h4, h3 {
+        font-size: 0.9rem;
+    }
+    .book-details .book-thumbnail {
+        width: 150px;
+    }
+    .book-details .book-price {
+        font-size: 0.9rem;
+    }
+}

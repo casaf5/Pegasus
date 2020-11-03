@@ -1,0 +1,110 @@
+.todos-area ul li {
+    width: 100%;
+    max-height: max-content;
+    padding: 5px 5px 5px 0;
+    margin: 5px;
+}
+
+.todos-area .label {
+    cursor: pointer;
+    padding-left: 20px
+}
+.todos-area ul .new-todo {
+    cursor: pointer;
+    padding-left: 6px
+}
+
+.isDone {
+    text-decoration: line-through;
+}
+
+.todos-area .add-task .fas {
+    margin: auto -4px;
+}
+
+.todos-area .add-task input {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+    padding-left: 5px;
+    font-family: lato, Arial, sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    outline: none;
+}
+
+.fas.fa-plus-circle {
+    font-size: 1.2rem;
+}
+
+/* The container */
+
+.check-todo {
+    display: inline;
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+
+.check-todo input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+
+.checkmark-todo {
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+}
+
+/* On mouse-over, add a grey background color */
+
+.check-todo:hover input~.checkmark-todo {
+    background-color: #fa9c00;
+}
+
+/* When the checkbox is checked, add a blue background */
+
+.check-todo input:checked~.checkmark-todo {
+    background-color: #fa9c00;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark-todo:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+
+.check-todo input:checked~.checkmark-todo:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+
+.check-todo .checkmark-todo:after {
+    left: 4px;
+    top: 0px;
+    width: 4px;
+    height: 9px;
+    border: solid rgb(255, 255, 255);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}

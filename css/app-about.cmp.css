@@ -1,0 +1,83 @@
+.app-about {
+    /* background-color: antiquewhite; */
+    background-image: url('../img/about.jpg');
+    background-size: cover;
+    flex-grow: 1;
+    min-height: 85vh;
+    font-family: 'Bungee Inline', cursive;
+}
+
+.app-about h1 {
+    font-size: 4rem;
+    letter-spacing: 3px;
+    color: white;
+    padding: 30px;
+}
+
+.app-about .about-card {
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.app-about .about-card img {
+    height: 100px;
+}
+
+.app-about .about-card h3 {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.app-about .social-nav {
+    margin-top: 50px;
+}
+
+.app-about .social-nav>* {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.social-nav .fa-facebook-f {
+    padding-left: 13px;
+    padding-top: 10px;
+}
+
+.social-nav .fa-github {
+    padding-left: 11px;
+    padding-top: 10px;
+}
+
+.social-nav .facebook {
+    margin-right: 10px
+}
+
+.social-nav .facebook, .socia-nav .github {
+    transition: all 0.4s;
+}
+
+.facebook:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #3b5998;
+    transform: scale(1.1);
+}
+
+.github:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #6cc644;
+    transform: scale(1.1);
+}
+
+@media (max-width:480px){
+    .app-about h1{
+        font-size: 3rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}

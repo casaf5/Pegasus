@@ -1,0 +1,48 @@
+.reviews-list {
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+.reviews-list .review-item h5 {
+    margin: 0;
+    padding: 5px;
+}
+
+.reviews-list .review-item h4 {
+    margin-top: 5px;
+    
+}
+.reviews-list .review-item h4 span{
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.reviews-list .review-item {
+    padding: 5px;
+}
+
+.reviews-list .review-item:not(:last-child) {
+    border-bottom: 2px solid black;
+}
+
+.book-review .fas, .far {
+    /* padding: 5px; */
+}
+
+.reviews-list .btn-del-review {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    font-family: lato, Arial, sans-serif;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+    outline: none;
+    transition: transform .3s;
+}
+
+.reviews-list .btn-del-review:hover {
+    transform: scale(1.1);
+}

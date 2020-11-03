@@ -1,0 +1,51 @@
+.email-filter input{
+    height: 40px;
+    width: 500px;
+    padding: 5px;
+    margin-inline-end: 5px;
+    font-size: 1rem;
+    font-family: roboto, cursive;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    outline: none;
+}
+.email-filter select{
+    padding: 5px;
+    max-width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    font-family: roboto, cursive;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    outline: none;
+    
+}
+
+.email-filter input:hover{
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+.email-filter select:hover{
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+
+}
+
+@media (max-width:570px){
+    .email-filter{
+        margin: 10px auto;
+    }
+    .email-filter input{
+        height: 30px;
+        padding: 5px;
+        font-size: 0.9rem;
+        width: 200px;
+
+    }
+    .email-filter select{
+        padding: 5px;
+        max-width: 100px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+}

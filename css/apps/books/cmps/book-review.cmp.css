@@ -1,0 +1,62 @@
+.book-review {
+    width: 100%;
+    border-top: 2px solid #e0e0e0;
+}
+
+.book-review select {
+    height: 35px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.book-review form{
+    border-top: 1px solid #e0e0e0;
+    padding: 10px 5px 0 5px
+}
+
+.book-review section input,.book-review section label {
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.book-review textarea {
+    padding: 5px 10px;   
+}
+
+.book-review .btn-submit-review, .book-review .btn-open-reviews {
+    height: 35px;
+    padding: 5px;
+    background-color: orange;
+    color: white;
+    font-family: lato, Arial, sans-serif;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: transform .3s;
+    margin: 5px;
+}
+
+.book-review .btn-submit-review:hover, .book-review .btn-open-reviews:hover {
+    transform: scale(1.1);
+}
+
+.book-review h2{
+    text-align: center;
+    margin: 10px 0;
+}
+
+@media (max-width:480px){
+    .book-review form{
+        flex-direction: column;
+    }
+    .book-review section input{
+        margin: 5px 20px;
+    }
+    .book-review textarea{
+        padding: 5px 25px;
+    }
+}

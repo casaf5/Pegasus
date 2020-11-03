@@ -1,0 +1,70 @@
+@import '../cmps/note-item.cmp.css';
+@import '../cmps/note-txt.cmp.css';
+@import '../cmps/note-video.cmp.css';
+@import '../cmps/note-img.cmp.css';
+@import '../cmps/note-editbar.cmp.css';
+@import '../cmps/note-todos.cmp.css';
+@import '../cmps/note-filter.cmp.css';
+@import '../cmps/note-add.cmp.css';
+@import '../cmps/note-colorpicker.cmp.css';
+@import '../cmps/note-audio.cmp.css';
+
+.notes-app {
+    background-color: #ffffff;
+    padding: 10px;
+    height: max-content;
+    flex-grow: 1;
+}
+
+.notes-app .cmp-container h1 {
+    margin: 10px 0;
+    position: absolute;
+    top: -60px;
+    font-family: 'Passion One', cursive;
+    font-size: 1.7rem;
+    padding: 15px;
+    letter-spacing: 3px;
+    color: #fa9c00;
+}
+
+.notes-app .cmp-container h2 {
+    font-family: 'Passion One', cursive;
+    font-size: 2rem;
+    column-span: all;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.notes-app .cmp-container .notes {
+    max-width: 1200px;
+    margin: 10px auto;
+    column-count: 3;
+    column-width: 250px;
+    padding: 10px;
+    /* border: 1px solid #352828; */
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.notes-app .cmp-container .pinned-notes {
+    max-width: 1200px;
+    margin: 20px auto 50px auto;
+    column-count: 3;
+    column-width: 260px;
+    padding: 10px;
+    /* border: 1px solid #352828; */
+    border-radius: 10px;
+    position: relative;
+
+}
+
+
+@media (max-width:480px){
+    .notes-app .cmp-container .notes{
+        column-width: 200px;
+    } 
+    .notes-app .cmp-container .pinned-notes{
+        column-width: 200px;
+    } 
+}

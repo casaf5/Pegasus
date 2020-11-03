@@ -1,0 +1,82 @@
+.note-item {
+    height: max-content;
+    font-size: 1rem;
+    margin: 0 5px 10px 0;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    font-family: lato, Arial, sans-serif;
+    transition: all .0.3s;
+    break-inside: avoid-column;
+    border-radius: 10px;
+    animation-name: note-apper;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+}
+
+@keyframes note-apper {
+    0% {
+        transform: scale(0);
+    }
+    25% {
+        transform: scale(0.25);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+    75% {
+        transform: scale(0.75);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.note-item .title {
+    margin-bottom: 8px;
+    padding: 0 0 0 5px;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.025rem;
+}
+
+.note-item:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+
+.note-item .edited {
+    padding: 10px 0 10px 5px;
+    font-size: 0.7rem;
+}
+
+.note-item .pin-icon {
+    margin: 3px 6px 3px 0;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.fa-thumbtack::before {
+    font-size: 1.2rem;
+}
+
+.note-item .pinned {
+    transition: all .3s;
+    transform: rotate(30deg);
+    margin: 3px 8px 3px 0;
+}
+
+.pinned.fa-thumbtack:hover::before {
+    transition: all .3s;
+    color: black;
+}
+
+.note-item .pin-icon:hover {
+    transform: scale(1.1);
+    transform: rotate(30deg);
+}
+
+.note-item .pinned:hover {
+    transform: rotate(0deg);
+}

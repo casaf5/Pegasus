@@ -1,0 +1,11 @@
+.email-status{
+    font-family: roboto;
+    font-size: 1rem;
+    margin:  5px 0;
+}
+@media (max-width:570px){
+    .email-status{
+        font-size: 0.9rem;
+        margin:  5px auto;
+    }
+}

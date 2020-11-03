@@ -1,0 +1,20 @@
+@import './book-details.css';
+@import '../cmps/add-book.cmp.css';
+@import '../cmps/book-filter.cmp.css';
+@import '../cmps/book-preview.cmp.css';
+@import '../cmps/book-review-list.cmp.css';
+@import '../cmps/book-review.cmp.css';
+@import '../cmps/long-text.cmp.css';
+
+.books-app{
+    background-color: #ffffff;
+    padding-top:20px;
+
+}
+.book-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,19 @@
+.long-text {
+    border-top: 1px solid #e0e0e0;
+    font-family: lato,Arial, Helvetica, sans-serif;
+    padding: 2px;
+}
+
+.long-text p{
+    margin: 0;
+    padding:0 10px 10px 10px
+}
+.long-text h3{
+    font-weight: bold;
+    text-decoration: underline;
+}
+@media(max-width:480px){
+    .long-text p{
+        font-size: 0.9rem;
+    }
+}

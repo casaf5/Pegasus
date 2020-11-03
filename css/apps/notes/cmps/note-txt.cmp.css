@@ -1,0 +1,15 @@
+
+.note-item textarea {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+    resize: none;
+    background-color: transparent;
+    font-family: lato,Arial,sans-serif;
+    font-size: 1rem;
+    width: 90%;
+    padding: 2px 0 0 5px;
+    overflow: hidden;
+}
+

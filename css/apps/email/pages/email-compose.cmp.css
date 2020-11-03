@@ -1,0 +1,58 @@
+.email-compose{
+    font-family: roboto;
+    height: max-content;
+}
+
+.form-informer{
+    text-align: right;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.compose-inputs{
+    border: 1px solid #fa9c00;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.email-compose input ,textarea, .new-email-body{
+    font-family: roboto;
+    font-size: 1rem;
+    cursor: text;
+    border: none;
+    border: 0;
+    outline: none;
+    resize: none;
+}
+.email-compose input{
+    padding: 5px;
+    color: white;
+}
+.new-email-body{
+    padding: 5px;
+    height: 400px;
+}
+.general-details{
+    background-color: #fa9c00 ;
+}
+.general-details >*{
+    background-color: #fa9c00 ;
+}
+
+.compose-btn{
+    font-family: Passion One , cursive;
+    font-size: 1.2rem;
+    outline: none;
+    border:  none;
+    cursor: pointer;
+    transition: 0.1s
+}
+.compose-btn:hover{
+    transform: scale(1.10,1.10);
+}
+.compose-opt{
+    background-color: #fff;
+    padding: 5px;
+}
+
+.email-compose ::-webkit-input-placeholder{
+    color:white;
+}

@@ -1,0 +1,29 @@
+.color-picker{
+    position: relative;
+}
+.color-picker .color{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: all .3s;
+    margin-inline-start: 2px;
+}
+
+.color-picker .color:hover{
+    transform: scale(1.1);
+}
+
+.color-picker .colors-list{
+   position: absolute;
+    z-index: 5;
+    top: 10px;
+    left: 45px;
+}
+
+@media (max-width:480px){
+    .color-picker .colors-list{
+        top:0;
+        left:-2%;
+    }
+}
